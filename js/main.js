@@ -7,7 +7,9 @@ $(document).ready(function(){
             responsive : true,
             scroll : {
                 items : 1,
-                fx : "fade"
+                fx : "fade",
+				pauseOnHover: true,
+				duration: 1000,
             },
             pagination: {
 				container:	"#t_navigation",
